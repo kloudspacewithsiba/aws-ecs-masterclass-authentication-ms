@@ -1,4 +1,4 @@
-name: Push Authentication service Docker image to AWS ECR Private Repo
+name: Push Authentication service Docker image to ECR Private Repo
 on:
   push:
     branches: [main]
