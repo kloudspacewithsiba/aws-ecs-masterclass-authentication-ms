@@ -2,7 +2,7 @@ name: Push Authentication service Docker image to AWS ECR Private Repo
 on:
   push:
     branches:
-    - 'releases/**'
+      - "main/**"
 
 permissions:
   id-token: write
